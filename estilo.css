@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(Background.jpg);
+    background-size: cover;
+}
+.cajaFecha{
+    background: rgb(255, 255, 255, 0.35);
+    height: auto;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    margin: 0.5rem;
+    font-size: 45px;
+    font-weight: bolder;
+    align-items: center;
+}
+.cajaHora{
+    background: rgb(255, 255, 255, 0.35);
+    height: 200px;
+    width: 650px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0.5rem;
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+.widget{
+    position: relative;
+    align-items: center;
+    margin: 15%;
+}
